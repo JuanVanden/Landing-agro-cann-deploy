@@ -1,0 +1,25 @@
+/* globals.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden; /* Evita el scroll vertical en la página principal */
+}
+
+/* Aplica el background directamente al body */
+body {
+  background-image: url('/Wallpaper.png'); /* Ruta a la imagen JPG en la carpeta public */
+  background-size: contain; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita en el fondo */
+}
+
+
+/* globals.css */
+@font-face {
+  font-family: 'Antonio'; /* Nombre que asignarás a tu fuente */
+  src: url('/Antonio.ttf') format('truetype'); /* Ruta relativa al archivo TTF */
+}
+
+/* Resto de estilos usando la fuente */
+body {
+  font-family: 'Antonio', sans-serif; /* Utiliza el nombre que asignaste a tu fuente */
+}
