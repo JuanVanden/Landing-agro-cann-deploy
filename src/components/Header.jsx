@@ -11,8 +11,7 @@ const Header = () => {
         <Image src="/logo-final-white.png" className={styles.logo} width={200} height={200} />
         <Image src="/VectorFlecha.png" className={styles.logoFlecha} width={66} height={99} />
         {/* Agrega una separación entre las imágenes */}
-        <div className={styles.separator1} />
-
+      
         {/* Centra el título */}
         <div className={styles.centeredTitle}>
           <Image src="/TITULO.png" className={styles.logo} width={640} height={140} />
