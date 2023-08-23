@@ -11,7 +11,8 @@ export default function Reprocann() {
       <Head>
         <title>Reprocann</title>
       </Head>
-      <main className={styles.main}>
+      <main  className={styles.main}>
+      <h1 className={styles.visuallyHidden}>AgroCann</h1>
         {/* Contenido de tu página */}
       </main>
     </>

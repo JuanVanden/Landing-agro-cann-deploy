@@ -15,7 +15,7 @@ const Header = () => {
 
         {/* Centra el título */}
         <div className={styles.centeredTitle}>
-          <Image src="/tituloFinal.svg" className={styles.logo} width={640} height={140} />
+          <Image src="/Titulo500px.png" className={styles.logo} width={640} height={140} />
         </div>
       </div>
     </header>
