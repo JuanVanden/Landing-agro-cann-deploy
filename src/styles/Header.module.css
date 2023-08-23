@@ -1,35 +1,64 @@
 /* header.module.css */
 .Header {
-    background-color: transparent;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    height: 120px; /* Ajusta la altura del Header */
-  }
-  
-  .logoContainer {
-    display: flex; /* Mostrar los logos en una fila */
-    align-items: center; /* Centrar verticalmente los logos */
-    padding-top: 20px; /* Ajusta el padding superior a 20px */
-    padding-left: 20px; /* Ajusta el padding izquierdo a 20px */
-  }
-  
-  /* Estilos para los logos */
-  .logo {
-    margin-right: 20px; /* Ajusta el margen derecho entre los logos */
-  }
-  
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  height: 120px;
+  /* Ajusta la altura del Header */
+}
 
-  /* Estilos para el separador */
+.logoContainer {
+  display: flex;
+  /* Mostrar los logos en una fila */
+  align-items: center;
+  /* Centrar verticalmente los logos */
+  padding-top: 20px;
+  /* Ajusta el padding superior a 20px */
+  padding-left: 20px;
+  /* Ajusta el padding izquierdo a 20px */
+}
+
+/* Estilos para los logos */
+.logo {
+  margin-right: 20px;
+  bottom: 50px;
+  /* Ajusta el margen derecho entre los logos */
+}
+
+.logoFlecha {
+  flex-shrink: 0;
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+  margin-top: 150px;
+  margin-left: 230px;
+  position: absolute;
+}
+
+.logoFlecha:hover {
+  transform: translateX(10px); /* Desplaza la flecha 10px hacia la derecha */
+}
+
+/* Estilos para el separador */
 .separator {
-    width: 50px; /* Ajusta el ancho del separador según tu preferencia */
-  }
-  
-  /* Estilos para el título centrado */
-  .centeredTitle {
-    flex: 1; /* Hace que ocupe todo el espacio disponible entre los logos */
-    display: flex; /* Asegura que el título esté centrado horizontalmente */
-    justify-content: center; /* Centra horizontalmente el título */
-    align-items: center; /* Centra verticalmente el título */
-    margin-right: 200px; /* Agrega un margen izquierdo para centrar el título en el contenedor */
-  }
+  width: 50px;
+  /* Ajusta el ancho del separador según tu preferencia */
+}
+
+.sizedBox {
+  height: 200px;
+  /* Ajusta la altura del separador según tu preferencia */
+}
+
+/* Estilos para el título centrado */
+.centeredTitle {
+  flex: 1;
+  /* Hace que ocupe todo el espacio disponible entre los logos */
+  display: flex;
+  /* Asegura que el título esté centrado horizontalmente */
+  justify-content: center;
+  /* Centra horizontalmente el título */
+  align-items: center;
+  /* Centra verticalmente el título */
+  margin-right: 200px;
+  /* Agrega un margen izquierdo para centrar el título en el contenedor */
+}
