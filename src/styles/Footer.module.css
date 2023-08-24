@@ -1,0 +1,16 @@
+.footerStyle {
+  background: #cde242;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #000;
+  border-right: 7px solid #080606;
+  /* Borde izquierdo similar al fondo */
+  border-bottom: 7px solid #080606;
+  border-radius: 10px;
+  /* Bordes redondeados */
+
+}

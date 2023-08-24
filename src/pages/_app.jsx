@@ -2,6 +2,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../styles/globals.css';
 
 function App({ Component, pageProps }) {
@@ -10,6 +11,7 @@ function App({ Component, pageProps }) {
       <Header />
       <NavBar />
       <Component {...pageProps} />
+     <Footer />
     </div>
   );
 }
