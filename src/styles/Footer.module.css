@@ -23,42 +23,41 @@
 
 .row {
   display: flex;
-  align-items: start;
-  width: 100%;
+  align-items: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
 }
 
 .columnContent {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  margin-right: 10px; /* Agregado para ajustar el espacio entre las columnas */
 }
 
 .logoSection {
-  margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
+  margin-right: 20px;
 }
 
 .contactInfo {
   margin: 0;
-  font-size: 18px;
+  font-size: 24px;
+  margin-bottom: 5px; /* Agregado para ajustar el espacio entre elementos */
 }
 
 .contactEmail {
-  margin: 10px 0px;
+  margin: 0;
   font-size: 16px;
-  color: #000; /* Cambia el color según tus preferencias */
+  color: #000;
   text-decoration: none;
 }
 
 .emailLogo {
-  width: 33px; /* Ajusta el ancho según tus necesidades */
+  width: 33px;
   height: auto;
   margin-left: 10px;
 }

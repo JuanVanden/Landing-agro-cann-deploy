@@ -12,14 +12,17 @@ const Footer = () => {
           </div>
        
         </div>
-        <div className={styles.column}>
+        <column className={styles.column}>
           <div className={styles.columnContent}>
+          <p className={styles.contactInfo}>INSTAGRAM</p>
           <p className={styles.contactInfo}>FAQS</p>
-            <p className={styles.contactInfo}>Contactanos</p>
+            <p className={styles.contactInfo}>CONTACTANOS</p>
+            <div>
             <a className={styles.contactEmail} href="mailto:info@tudominio.com">agro.cann.ig@gmail.com</a>
             <Image src='/email.png' className={styles.emailLogo} width={60} height={60} alt="Email Logo" />
+            </div>
           </div>
-        </div>
+        </column>
       </div>
     </footer>
   );
