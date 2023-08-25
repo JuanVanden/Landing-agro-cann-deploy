@@ -9,9 +9,8 @@ function App({ Component, pageProps }) {
   return (
     <div> {/* Utiliza un elemento contenedor válido aquí */}
       <Header />
-      <NavBar />
       <Component {...pageProps} />
-     <Footer />
+      <footer><Footer/></footer>
     </div>
   );
 }
