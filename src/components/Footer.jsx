@@ -1,14 +1,28 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from '../styles/Footer.module.css';
 
 const Footer = () => {
   return (
     <footer className={styles.footerStyle}>
-      <a>¡Este es el pie de página de tu sitio!</a>
+      <div className={styles.footerContent}>
+        <div className={styles.row}>
+          <div className={styles.logoSection}>
+            <Image src='/Logo4x.png' className={styles.footerLogo} width={300} height={300} alt="Logo" />
+          </div>
+       
+        </div>
+        <div className={styles.column}>
+          <div className={styles.columnContent}>
+          <p className={styles.contactInfo}>FAQS</p>
+            <p className={styles.contactInfo}>Contactanos</p>
+            <a className={styles.contactEmail} href="mailto:info@tudominio.com">agro.cann.ig@gmail.com</a>
+            <Image src='/email.png' className={styles.emailLogo} width={60} height={60} alt="Email Logo" />
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };
-
-
 
 export default Footer;

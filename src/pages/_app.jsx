@@ -10,7 +10,7 @@ function App({ Component, pageProps }) {
     <div> {/* Utiliza un elemento contenedor válido aquí */}
       <Header />
       <Component {...pageProps} />
-      <footer><Footer/></footer>
+      <Footer />
     </div>
   );
 }
