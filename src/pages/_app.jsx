@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/globals.css';
 
+
 function App({ Component, pageProps }) {
   return (
     <div> {/* Utiliza un elemento contenedor válido aquí */}

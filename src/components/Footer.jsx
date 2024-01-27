@@ -10,16 +10,29 @@ const Footer = () => {
           <div className={styles.logoSection}>
             <Image src='/Logo4x.png' className={styles.footerLogo} width={300} height={300} alt="Logo" />
           </div>
-       
+
         </div>
         <column className={styles.column}>
           <div className={styles.columnContent}>
-          <p className={styles.contactInfo}>INSTAGRAM</p>
-          <p className={styles.contactInfo}>FAQS</p>
+          <div>
+              <a href="https://www.instagram.com/agro.cann.ig/" target="_blank" rel="noopener noreferrer" className={styles.contactInfo}>
+                INSTAGRAM
+              </a>
+              <a href="https://www.instagram.com/agro.cann.ig/" target="_blank" rel="noopener noreferrer">
+                <Image src='/instagram.png' className={styles.instagramLogo} width={30} height={30} alt="Instagram Logo" />
+              </a>
+            </div>
+            <div>
+            <p className={styles.contactInfo}>FAQS</p>
+            </div>
             <p className={styles.contactInfo}>CONTACTANOS</p>
             <div>
-            <a className={styles.contactEmail} href="mailto:info@tudominio.com">agro.cann.ig@gmail.com</a>
-            <Image src='/email.png' className={styles.emailLogo} width={60} height={60} alt="Email Logo" />
+              <a href="mailto:agro.cann.ig@gmail.com" className={styles.contactEmail}>
+                agrocannig@gmail.com
+              </a>
+              <a href="mailto:agro.cann.ig@gmail.com">
+                <Image src='/email.png' className={styles.emailLogo} width={60} height={60} alt="Email Logo" />
+              </a>
             </div>
           </div>
         </column>
