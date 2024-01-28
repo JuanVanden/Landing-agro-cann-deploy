@@ -1,6 +1,6 @@
 // src/components/NavBar.jsx
 import React from 'react';
-import styles from '../styles/navbar.module.css';
+import styles from '@component/styles/navbar.module.css'; // Usa el alias configurado en next.config.js
 
 const NavBar = () => {
   const handleButtonClick = (route) => {
